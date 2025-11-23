@@ -51,7 +51,7 @@ const Navbar = ({theme,setTheme}) => {
                 </div>
                 {/*Button*/}
                 {!nav ? 
-                <div className='border-transparent border-2 mr-5 rounded-2xl'>
+                <div className='border-transparent border-2  rounded-2xl'>
                     <div className='bg-white rounded-full'>
                         <button
                             onClick={() => {
