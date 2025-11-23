@@ -6,7 +6,7 @@ import { FaInstagramSquare, FaWhatsappSquare } from "react-icons/fa";
 
 const AboutMe = ({ theme }) => {
     return (
-        <div className={`${theme ? "dark" : ""} bg-white dark:bg-zinc-800  p-10 `} >
+        <div className={`${theme ? "dark" : ""} bg-white dark:bg-zinc-800 mx-auto p-10 `} >
             <div className='grid md:grid-cols-2 p-12 gap-10 shadow-2xl'>
                 {/* About Me Content Here */}
                 <div >

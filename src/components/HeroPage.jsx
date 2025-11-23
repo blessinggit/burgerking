@@ -5,7 +5,7 @@ import { IoIosContact } from "react-icons/io";
 import mypicture from "../assets/mypicture.webp"
 const HeroPage = ({ theme }) => {
     return (
-        <div className={`${theme ? "dark" : ""} bg-white h-[870px] md:h-[650px] dark:bg-zinc-800`}>
+        <div className={`${theme ? "dark" : ""} mx-auto bg-white h-[870px] md:h-[650px] dark:bg-zinc-800`}>
             <div className='grid md:grid-cols-2 gap-4 items-center
          px-6 md:px-20 lg:px-32 py-13 '>
 

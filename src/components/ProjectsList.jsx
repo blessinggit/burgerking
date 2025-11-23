@@ -3,7 +3,7 @@ import { projectData } from '../data.js'
 import { skills } from '../data.js'
 const ProjectsList = ({ theme }) => {
     return (
-        <div className={`${theme ? "dark" : ""} bg-white dark:bg-zinc-800  p-10 `}>
+        <div className={`${theme ? "dark" : ""} bg-white mx-auto dark:bg-zinc-800  p-10 `}>
             <h1 className='dark:text-white text-center font-epunda font-bold 
             text-3xl lg:text-5xl pt-5'> Recent Projects</h1>
             <hr className='w-40 md:w-45 lg:w-55 border-t-3 pb-8 border-orange-500 my-2 flex items-center px-4 mx-auto' />

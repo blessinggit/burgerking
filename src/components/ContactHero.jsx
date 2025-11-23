@@ -4,7 +4,7 @@ import { IoMailUnreadSharp } from "react-icons/io5";
 
 const ContactHero = ({ theme }) => {
   return (
-    <div className={`${theme ? "dark" : ""} bg-white dark:bg-zinc-800 pt-10 px-12 `}>
+    <div className={`${theme ? "dark" : ""} mx-auto bg-white dark:bg-zinc-800 pt-10 px-12 `}>
       <div className='p-10 mx-10 space-y-7 dark:text-white'>
         <h1 className='text-3xl font-bold font-montserrat lg:text-4xl'>Let's Get <span className='text-orange-500'>In Touch</span></h1>
        {/*address,number,email section*/}

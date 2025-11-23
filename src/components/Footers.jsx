@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Footers = ({ theme }) => {
     return (
-        <div>
+        <div className='mx-auto'>
             <div className={`${theme ? "dark" : ""} dark:bg-white bg-zinc-800 text-center p-6
           font-semibold text-black dark:text-white`}>
                 <div className=' bg-white dark:bg-zinc-800 shadow-2xl'>

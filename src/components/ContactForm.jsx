@@ -3,7 +3,7 @@ import { IoIosPlay } from "react-icons/io";
 const ContactForm = ({theme}) => {
 
   return (
-    <div>
+    <div className='mx-auto'>
         <div className={`${theme ? "dark" : ""} bg-white dark:bg-zinc-800 pb-7 px-12 `}>
         <div className='px-10 mx-10 dark:text-white'>
             <h1 className='font-bold text-2xl lg:text-3xl font-poppins'>Or Fill Out The Form Below</h1>
