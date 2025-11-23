@@ -4,8 +4,8 @@ const ContactForm = ({theme}) => {
 
   return (
     <div className='mx-auto'>
-        <div className={`${theme ? "dark" : ""} bg-white dark:bg-zinc-800 pb-7 px-12 `}>
-        <div className='px-10 mx-10 dark:text-white'>
+        <div className={`${theme ? "dark" : ""}  bg-white dark:bg-zinc-800 pb-7 px-12 `}>
+        <div className='px-10 mx-10 mx-auto dark:text-white'>
             <h1 className='font-bold text-2xl lg:text-3xl font-poppins'>Or Fill Out The Form Below</h1>
             <form>
             <div className='grid md:grid-cols-2 gap-6  md:gap-20 pt-5'>
